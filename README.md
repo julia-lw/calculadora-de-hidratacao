@@ -1,5 +1,5 @@
 # calculadora-de-hidratacao
-# Para instalar o programa: npx @angular/cli ng new calculadora-de-hidratacao --style=css --routing=true --ssr=false
+# Para instalar o programa: npx -p @angular/cli ng new calculadora-de-hidratacao --style=css --routing=true --ssr=false
 # Para acessar a página: npx ng serve
 # Para baixar os pacotes: npx npm install
 # Para entrar na pasta: cd .\calculadora-de-hidratacao
