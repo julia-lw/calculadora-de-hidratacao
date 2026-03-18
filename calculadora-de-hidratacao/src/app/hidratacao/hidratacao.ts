@@ -10,20 +10,21 @@ import { CommonModule } from '@angular/common';
 })
 export class Hidratacao {
   peso: number = 0;
-  hidratacao: String = '';
+  atividade: string = 'sedentario';
+  hidratacao: string = '';
+  resultado = number = 0;
   calcularHidratacao() {
     if (this.peso > 0) {
-      this.resultado = this.peso/35;
-      if (this.atividade = 'sedentário') {
-        this.hidratacao = "";
-      } else if (this.resultado = 'moderado') {
-        this.hidratacao = "";
+      let base = this.peso/35;
+      if (this.atividade === 'sedentário') {
+        this.resultado = base*1.0;
+      } else if (this.atividade === 'moderado') {
+        this.resultado = base*1.2;
       }
-      else if (this.resultado = 'intenso') {
-        this.hidratacao = "";
-      } else {
-        this.hidratacao = "";
+      else if (this.atividade === 'intenso') {
+        this.resultado = base*1.5;
       }
+      let garrafas = Math.ceil(this.resultado/0.5);
     }
   }
 }
