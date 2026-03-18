@@ -1,2 +1,7 @@
 # calculadora-de-hidratacao
-atividade-18.03.26
+# Para instalar o programa: npx @angular/cli ng new calculadora-de-hidratacao --style=css --routing=true --ssr=false
+# Para acessar a página: npx ng serve
+# Para baixar os pacotes: npx npm install
+# Para entrar na pasta: cd .\calculadora-de-hidratacao
+# Para consultar comandos: npx ng --help
+# Para criar novo componente: npx ng g c hidratacao. E/ou: ng g c hidratacao

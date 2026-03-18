@@ -1,0 +1,8 @@
+<title>Beba água</title>
+<h1>Consulta de Hidratação</h1>
+<input type="number" [(ngModel)]="peso" placeholder="Peso (kg)">
+<input type="text" [(ngModel)]="atividade" placeholder="Nível de atividade">
+<button (click)="calcularHidratacao()">Enviar</button><br>
+<div *ngIf="resultado > 0">
+  <p>Situação: <strong>{{ hidratacao }}</strong></p>
+</div>
